@@ -1,0 +1,45 @@
+h1 {
+  font-size:     72px;
+  line-height:   1.5;
+  color: #2c3e50;
+  font-weight:   100;
+}
+
+h2{
+    color: #2c3e50;
+  font-weight:   100;
+}
+
+#container {
+  width:  980px;
+  margin: 0 auto;
+}
+
+section {
+  height: 300px;
+  margin: 20px 0;
+  text-align: center;
+  line-height: 300px;
+  color: white;
+  font-size: 60px
+}
+
+#main {
+  text-align: center;
+}
+
+body{
+    font-family: 'Cantarell', sans-serif;
+    color: #2c3e50;
+}
+
+a{
+    font-family: 'Cantarell', sans-serif;
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    text-decoration: underline;
+}

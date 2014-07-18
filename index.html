@@ -1,0 +1,130 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Animate On Scroll</title>
+        <meta content="A jquery plugin that reveal animations when you scroll " name="description">
+        <link rel="stylesheet" href="3rdparty/animate/animate.css">
+        <link rel="stylesheet" href="css/site.css">
+        <link rel="stylesheet" href="3rdparty/simplegrid/simplegrid.css">
+        <link rel="stylesheet" href="3rdparty/font-awesome/css/font-awesome.min.css">
+        <script type="text/javascript" src="3rdparty/jquery/jquery.min.js"></script>
+        <link href='http://fonts.googleapis.com/css?family=Cantarell:400,700' rel='stylesheet' type='text/css'>
+    </head>
+
+    <body>
+        <div id="container" >
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="">DOCUMENTATION</a></h2>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="">GITHUB</a></h2>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="https://twitter.com/rabartu">@RABARTU</a></h2>
+            </div>
+            
+            <header>
+                <h1>Animate On Scroll</h1>
+                <h2 style="margin-top: -50px">Reveal Animations When You Scroll.</h2>
+
+                <p>If you like <i>animate.css</i> sure you like <i>Animate on Scroll</i>. This simple library allows you to animate any element on your website in the simplest way possible.
+                    Easily customize animation settings: delay, length, offset... 
+                </p>
+            </header>
+            <h2 style="font-size: 40px">Features</h2>
+
+            <div class="col-1-3">                
+                <h2 style="text-align: center">Lightweight</h2>
+                <p style="text-align: center"><span class="fa fa-4x fa-gift"></span></p>
+                <p style="text-align: center">Smaller than other JavaScript parallax plugins, like Scrollorama or wow.js (they do fantastic things, but can be too heavy for simple needs)</p>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center">Simple to setup and run</h2>
+                <p style="text-align: center"><span class="fa fa-4x fa-star"></span></p>
+                <p style="text-align: center">Super simple to install, and works with <i>animate.css</i>, so if you already use it, that will be very fast to setup, just include our .js file</p>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center">Very customizable</h2>
+                <p style="text-align: center"><span class="fa fa-4x fa-cog"></span></p>
+                <p style="text-align: center">Additionally we have added a number of options to customize everything: delay, length, offset...</p>
+            </div>
+
+            <div class="col-1-1" style="margin-top: 40px; margin-bottom: 40px">
+                <p class="animateOnScroll" data-animation-type="fadeInDown" style="text-align: center"><span class="fa fa-arrow-down" style="font-size: 160px"></span></p>
+                <h2 style="text-align: center" class="animateOnScroll" data-animation-type="fadeInUp">Scroll down!</h2>
+
+            </div>
+
+            <div class="grid grid-pad">
+                <div class="col-1-1">
+                    <section class="animateOnScroll" style="background-color: #f1c40f;"   data-animation-type="tada" data-timeout="0" data-offset-top="200">Attention</section>
+                </div>
+
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: tan"   data-animation-type="flipInY" data-timeout="0" data-offset-top="200">Flip it</section>
+                </div>
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: dimgrey"   data-animation-type="flipInY" data-timeout="200" data-offset-top="200">Flip it</section>
+                </div>
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: darksalmon"   data-animation-type="flipInY" data-timeout="400" data-offset-top="200">Flip it</section>
+                </div>
+
+                <div class="col-1-1">
+                    <section class="animateOnScroll" style="background-color: chocolate"   data-animation-type="zoomInDown" data-timeout="0" data-offset-top="200"> Fly it</section>
+                </div>
+
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: gold"   data-animation-type="zoomIn" data-timeout="0" data-offset-top="200">I'm first</section>
+                </div>
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: peru"   data-animation-type="zoomIn" data-timeout="600" data-offset-top="200">I'm second</section>
+                </div>
+                <div class="col-1-3">
+                    <section class="animateOnScroll" style="background-color: olive"   data-animation-type="zoomIn" data-timeout="1200" data-offset-top="200">I'm last</section>
+                </div>
+                <div class="col-1-1">
+                    <section class="animateOnScroll" style="background-color: rosybrown"   data-animation-type="zoomInUp" data-timeout="0" data-offset-top="200"> 
+                        <div class="animateOnScroll" data-animation-type="flipInX" data-timeout="1200" data-offset-top="100">Nested animations too!!!</div> 
+                    </section>
+                </div>
+                <div class="col-1-5">
+                    <section class="animateOnScroll" style="background-color: gold"   data-animation-type="bounceIn" data-timeout="0" data-offset-top="100" data-animation-duration="200">fast</section>
+                </div>
+                <div class="col-1-5">
+                    <section class="animateOnScroll" style="background-color: peru; font-size: 40px"   data-animation-type="bounceIn" data-timeout="0" data-offset-top="100"  data-animation-duration="3000">medium</section>
+                </div>
+                <div class="col-1-5">
+                    <section class="animateOnScroll" style="background-color: olive"   data-animation-type="bounceIn" data-timeout="0" data-offset-top="100"  data-animation-duration="6000">slow</section>
+                </div>
+                <div class="col-1-5">
+                    <section class="animateOnScroll" style="background-color: gold; font-size: 40px"   data-animation-type="bounceIn" data-timeout="0" data-offset-top="100"  data-animation-duration="3000">medium</section>
+                </div>
+                <div class="col-1-5">
+                    <section class="animateOnScroll" style="background-color: peru"   data-animation-type="bounceIn" data-timeout="0" data-offset-top="100"  data-animation-duration="200">fast</section>
+                </div>
+            </div>
+
+            <div class="col-1-1">
+                <h1>Credits</h1>
+                <h2>Developed by <a href="http://rabartu.info">Rabartu</a></h2>
+                <h2>CSS animations powered by <a href="https://daneden.me/animate">Animate.css</a></h2>
+            </div>
+
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="">DOCUMENTATION</a></h2>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="">GITHUB</a></h2>
+            </div>
+            <div class="col-1-3">
+                <h2 style="text-align: center"><a href="https://twitter.com/rabartu">@RABARTU</a></h2>
+            </div>
+
+
+        </div>
+        <script src="js/animate_on_scroll.js"></script>
+    </body>
+</html>
