@@ -19,7 +19,7 @@ If you like animate.css sure you like Animate on Scroll. This simple library all
 
 
 ##Instalation
-Installing this plugin is super-easy, just copy the file modalconf.js and include it in your page.
+Installing this plugin is super-easy, just copy the file animate_on_scroll.min.js and include it in your page.
 
     <script src="assets/js/animate_on_scroll.min.js"></script>
 
