@@ -4,7 +4,7 @@ Reveal Animations When You Scroll.
 
 
 ##Demo
-http://rabartu.info/demos/animate-on-scroll/
+http://rabartu.net/demos/animate-on-scroll/
 
 
 ##Description
@@ -29,7 +29,7 @@ This plugin require the jquery library.
     
     
 ##Documentation
-http://rabartu.info/documentation/animate-on-scroll/
+http://rabartu.net/documentation/animate-on-scroll/
 
 ##Credits
 Developed by Rabartu
